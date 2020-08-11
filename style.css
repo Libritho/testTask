@@ -1,0 +1,135 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    background: url("images/bcg-image.png");
+
+    background-size: cover;
+    height: 100vh;
+
+
+
+
+
+}
+
+.navigate {
+    padding: 6px 180px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    width: 100vw;
+    height: 72px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.menu {
+    position: absolute;
+    left: 600px;
+    top: 27px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #2F80ED;
+}
+.btn1 {
+
+    width: 210px;
+    height: 32px;
+    border: 1px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #2F80ED;
+
+}
+.info {
+    width: content-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 131px;
+    padding-top: 136px;
+
+}
+.complex {
+    position: absolute;
+    width: 404px;
+    height: 26px;
+    left: 904px;
+    top: 136px;
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #2F80ED;
+}
+.standards {
+    position: absolute;
+    width: 429px;
+    height: 110px;
+    left: 880px;
+    top: 163px;
+
+    font-family: 'PF Din Text Cond Pro', sans-serif;
+    font-size: 40px;
+    line-height: 55px;
+
+
+    text-align: right;
+
+    color: #000000;
+}
+.about {
+
+    width: 210px;
+    height: 32px;
+    background: #2F80ED;
+    border: 1px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
