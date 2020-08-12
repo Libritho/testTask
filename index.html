@@ -6,19 +6,31 @@
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
     <style>  @font-face {
         font-family: PFDinTextCondPro-Bold;
         src: url(fonts/PFDinTextCondPro-Bold.ttf);
     }
+
     P {
-        font-family: PFDinTextCondPro-Bold,sans-serif;
+        font-family: PFDinTextCondPro-Bold, sans-serif;
 
     }</style>
+    <style> @font-face {
+        font-family: HelveticaNeueCyr-Light ;
+        src: url("fonts/helveticaneuecyr-light.ttf");
+    }
+    P {
+        font-family: HelveticaNeueCyr, sans-serif;
+    }
+
+    </style>
     <script src="test.js"></script>
 </head>
 <body>
-    <div class="header">
-<!--        <img src="images/bcg-image.png", alt="background-image">-->
+<div class="header">
+    <div class="gradient">
+        <!--        <img src="images/bcg-image.png", alt="background-image">-->
         <div class="navigate">
             <img src="images/logo.png">
             <div class="menu">
@@ -26,19 +38,94 @@
                 <a href="/Ціни">Ціни</a>
                 <a href="/Лікування">Лікування</a>
                 <a href="/Контакти">Контакти</a>
-
             </div>
             <div class="btn1">Записатись на прийом</div>
-
-
         </div>
-    <div class="info">
-        <p class="complex">ПОВНИЙ КОМПЛЕКС МЕДИЧНИХ ПОСЛУГ</p>
-        <div class="standards">Європейські стандарти
-            медичної допомоги</div>
-        <p class="about">про клініку</p>
+
+        <div class="info">
+            <p class="complex">ПОВНИЙ КОМПЛЕКС МЕДИЧНИХ ПОСЛУГ</p>
+            <div class="standards">Європейські стандарти
+                медичної допомоги
+            </div>
+            <p class="about">про клініку</p>
+        </div>
     </div>
+</div>
+
+<div class="contacts">
+    <address>м. Київ, вул. Еленівська, 8</address>
+    <div class="telephone">
+        <a href="tel:(095) 222 22 22">(095) 222 22 22</a>
+        <a href="tel:(068) 222 22 22">(068) 222 22 22</a>
+        <a href="tel:(063) 222 22 22">(063) 222 22 22</a>
     </div>
+    <a class="email" href="mailto:info@clinic.com">info@clinic.com</a>
+</div>
+
+<div class="directions">
+    <div class="directions-inner">
+        <div class="direction-complex">Комплексний підхід до Вашого здоров'я</div>
+        <div class="key-direction">Ключові напрамки</div>
+        <div class="star-lines">
+            <div class="lines"></div>
+            <img src="images/Star.png">
+            <div class="lines"></div>
+        </div>
+    </div>
+    <div class="direction-images">
+        <div class="neurology relative">
+            <img class="slides" src="images/Brain.png" , alt="nerves">
+            <div class="text-neurology">неврологія</div>
+            <div class="arrow active"></div>
+        </div>
+        <div class="vertical-lines"></div>
+        <div class="massage relative">
+            <img class="slides" src="images/massageLogo.png">
+            <div class="text-massage">масаж</div>
+            <div class="arrow"></div>
+        </div>
+        <div class="vertical-lines"></div>
+        <div class="rheumatology relative">
+            <img class="slides" src="images/bones.png">
+            <div class="text-rheumatology">ревматологія</div>
+            <div class="arrow"></div>
+        </div>
+    </div>
+</div>
+<div class="description active">
+    <div class="title-btn">
+    <div class="title">Неврологія</div>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+        <button class="details">Деталі</button>
+    </div>
+
+    <img src="images/neurology.jpg">
+</div>
+<div class="description">
+    <div class="title-btn">
+        <div class="title">Масаж</div>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+        <button class="details">Деталі</button>
+    </div>
+
+    <img src="images/massage.jpg">
+</div>
+<div class="description">
+    <div class="title-btn">
+        <div class="title">Ревматологія</div>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+        <button class="details">Деталі</button>
+    </div>
+
+    <img src="images/reumat.png">
+</div>
+
 
 </body>
 </html>
